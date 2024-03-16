@@ -1,0 +1,249 @@
+*{
+  margin: o;
+  padding: 0;
+}
+
+.header{
+  position: fixed;
+  z-index: 3;
+}
+
+body
+{
+  margin: 0px;
+  padding: 0px;
+}
+
+.background
+{
+  width: 1280px;
+  height: 40vh;
+  background-image: url(Images/Screenshot\ 2024-02-29\ 191421.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.background-image{
+  max-width: 100%;
+  width: 500px;
+  height: auto;
+}
+.logo{
+  flex-basis: 55%;
+  cursor: pointer;
+}
+.logo img{
+  margin: 10px;
+}
+.background-text{
+  width: 60%;
+  color: #fff;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  z-index: 2;
+}
+.button-container {
+  position: absolute;
+  top: 10px; /* Adjust this value as needed */
+  right: -1100px;
+  display: flex;
+}
+.dropbtn {
+  background-color: #04AA6D;
+  color: white;
+  padding: 16px;
+  font-size: 16px;
+  border: none;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  right: 0;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  white-space: nowrap;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 8px 12px;
+  text-decoration: none;
+  display: block;
+  display: inline-block; 
+  white-space: nowrap;
+  font-size: 14px;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
+
+.button {
+  background-color: #1c4587ff; /* Green */
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.button2 {
+  background-color: #35d935ff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.button3 {
+  background-color: #03c0e7ff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+.button3-1 {
+  background-color: #039cbcff;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button3-2 {
+  background-color: #00809aff;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button3-3 {
+  background-color: #00687dff;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button3-4 {
+  background-color: #03c0e7ff;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button3-5 {
+  background-color: #039cbcff;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button3-6 {
+  background-color: #00809aff;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button3-7 {
+  background-color: #00687dff;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.button3-8 {
+  background-color: #03c0e7ff;
+  color: white;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  cursor: pointer;
+}
+.button4 {
+  background-color: #00ad00ff;
+  border: none;
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 8px;
+}
+.body{
+  margin: 0; 
+  
+}
+.column {
+  flex: 1;
+  padding: 10px;
+}
+
+.left {
+  background-color: #4d4646;
+}
+
+.right {
+  background-color: #ffffff;
+}
